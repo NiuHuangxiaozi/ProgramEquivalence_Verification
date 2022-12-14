@@ -16,6 +16,8 @@ using namespace std;
 
 Judge judge("./inputfile");
 
+Judge judge1("./aaaaaaa");
+
 TEST(testCase0,filenames_test){
     //1
     std::vector<std::string> filesname=judge.get_filenames();
@@ -23,6 +25,10 @@ TEST(testCase0,filenames_test){
     ASSERT_EQ(filesname.size(),filesnamestandard.size());
     for(int i=0;i<filesnamestandard.size();i++)
         EXPECT_EQ(filesname[i],filesnamestandard[i]);
+
+    std::vector<std::string> filesname1=judge1.get_filenames();
+    EXPECT_EQ(filesname1.size(),0);
+
 }
 
 TEST(testCase1,status_test){

@@ -16,9 +16,5 @@ public:
 public:
 	void Get_file_pairs(std::string &s1,std::string &s2);
 	void Add_file_pairs(std::string& s1, std::string& s2);
-	bool is_empty();
-	void save_file_result();
 	void init_data(std::string s,std::string answerfile);
-	void Set_answer(std::string& s1, std::string& s2,bool answer);
-
 };

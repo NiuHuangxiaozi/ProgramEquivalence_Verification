@@ -1,7 +1,7 @@
 
 #include "FileTable.h"
 
-
+/*
 void StackFileTable::Get_file_pairs(std::string& s1, std::string& s2)
 {
 	s1 = inputfile.top().Getpair()[0];
@@ -18,12 +18,14 @@ bool StackFileTable::is_empty()
 {
 	return inputfile.empty();
 }
+*/
 void StackFileTable::Set_answer(std::string& s1, std::string& s2,bool answer)
 {
 	File* tempfile = new File(s1, s2);
 	tempfile->set_result(answer);
 	outputfile.push(*tempfile);
 }
+/*
 void StackFileTable::init_data(std::string s,std::string answer)
 {
 
@@ -52,7 +54,7 @@ void StackFileTable::init_data(std::string s,std::string answer)
 		}
 	}
 }
-
+*/
 std::string turn_to_erlativepath(std::string s)
 {
 	int times=3;

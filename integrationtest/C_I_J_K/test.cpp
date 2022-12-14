@@ -8,11 +8,11 @@ using namespace std;
 void test_for_4A()
 {
 //create input 
-  string sourcefile1="./inputfile/4A";
-  string answerfile1="./answer/task/4A";
-  string tempfile1="./temp/task/4A";
-  JudgeControl * c=new JudgeControl(sourcefile1,answerfile1,tempfile1);
-  c->start_judge();
+  //string sourcefile1="./inputfile/4A";
+  //string answerfile1="./answer/task/4A";
+  //string tempfile1="./temp/task/4A";
+  //JudgeControl * c=new JudgeControl(sourcefile1,answerfile1,tempfile1);
+  //c->start_judge();
 
 
   std::set<std::string> inequal_test={
@@ -63,11 +63,11 @@ std::set<std::string> equal_test={
 void test_for_50A()
 {
 //create input 
-  string sourcefile1="./inputfile/50A";
-  string answerfile1="./answer/task/50A";
-  string tempfile1="./temp/task/50A";
-  JudgeControl * c=new JudgeControl(sourcefile1,answerfile1,tempfile1);
-  c->start_judge();
+  //string sourcefile1="./inputfile/50A";
+  //string answerfile1="./answer/task/50A";
+  //string tempfile1="./temp/task/50A";
+  //JudgeControl * c=new JudgeControl(sourcefile1,answerfile1,tempfile1);
+  //c->start_judge();
 
 
   std::set<std::string> equal_test={
